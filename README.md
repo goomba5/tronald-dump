@@ -22,7 +22,7 @@ If you want to try it out and make your own requests, then check out the example
    }
 ```
 
-Important Note
-: When making requests to the API, always precede the endpoint (whether it's /quote or /meme) with "https://api.tronalddump.io/". The documentation does not explicitly state this, so, for clarity, make sure you include this base URL when making your requests. :smile:
+**Important Note**
+When making requests to the API, always precede the endpoint (whether it's /quote or /meme) with "https://api.tronalddump.io/". The documentation does not explicitly state this, so, for clarity, make sure you include this base URL when making your requests. :smile:
 
 I might tweak some things about this site in the future for practice puruposes. And while this site has the potential to make you sad and depressed, I truly hope it also offers some form of comical relief. Have a good day!
