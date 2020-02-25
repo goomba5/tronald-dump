@@ -6,9 +6,12 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <div className="tagline">
+    <p>The quotes you are about to read are real.</p>
+    <p>100% not fake news. Enjoy.</p>
+    </div>
     <SEO title="Home" />
     <Quote/>
-    <p>You are reading random quotes from a used orange peel. Enjoy.</p>
   </Layout>
 )
 
