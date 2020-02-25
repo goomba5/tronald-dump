@@ -13,13 +13,12 @@ const Quote = () => {
         })
         .then((data) =>{
             setTronald(data.value)
-            console.log(data.value)
         })
     }
 
     return(
        <div>
-            <div>
+            <div className="quoteContainer">
                 <h2 className="quote">{tronald}</h2>
             </div>
             <div className="buttonContainer">
