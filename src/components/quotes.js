@@ -20,10 +20,10 @@ const Quote = () => {
     return(
        <div>
             <div>
-                <p>{tronald}</p>
+                <h2 className="quote">{tronald}</h2>
             </div>
-            <div>
-                <button onClick={fetchData}>Get a Quote</button>
+            <div className="buttonContainer">
+                <button className="button" onClick={fetchData}>Send Tweet</button>
             </div>
        </div>
     )
